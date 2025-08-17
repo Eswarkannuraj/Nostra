@@ -24,7 +24,7 @@ It features a clean design with three main pages: **Home**, **Collections**, and
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](images/screenshot/home.png)
+![Home Page](images/screenshot/Home.png)
 
 ### 📦 Collections Page
 ![Collections Page](images/screenshot/collection.png)
