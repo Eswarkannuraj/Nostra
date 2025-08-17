@@ -24,10 +24,10 @@ It features a clean design with three main pages: **Home**, **Collections**, and
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](images/home.png)
+![Home Page](images/screenshot/home.png)
 
 ### 📦 Collections Page
-![Collections Page](images/collection.png)
+![Collections Page](images/screenshot/collection.png)
 
 
 ---
