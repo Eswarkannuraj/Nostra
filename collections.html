@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!--favicon-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <title>Collections</title>
+  <script src="https://cdn.tailwindcss.com?version=3.4.17"></script>
+</head>
+
+<body>
+
+  <!--Sign up -->
+  <div id="signUp" class="bg-black text-white p-1 flex justify-center gap-10">
+    <p class="text-[2vw]">
+      Sign Up and <b>GET 20% OFF</b> for your first Order!
+    </p>
+    <p class="signUpClose cursor-pointer">x</p>
+  </div>
+
+  <!--Navigation Bar-->
+  <nav class="flex justify-between p-4 pt-2 sticky top-0 z-20 bg-white">
+    <h1 class="font-black text-xl">NOSTRA</h1>
+    <div class="navbar-links pr-4 hidden md:flex md:w-1/2 md:justify-between">
+      <p class="navbar-link">
+        <a href="/index.html">Home</a>
+      </p>
+      <p class="navbar-link">
+        <a href="#new-arrivals">New Arrival</a>
+      </p>
+      <p class="navbar-link">
+        <a href="#most-wanted">Most Wanted</a>
+      </p>
+      <p class="navbar-link">
+        <a href="/collections.html">Collections</a>
+      </p>
+      <p class="navbar-link">
+        <a href="/contact.html">Contact Us</a>
+      </p>
+    </div>
+    <div class="navbar-toggle md:hidden cursor-pointer">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+  <!--sideBar-->
+  <div class=" sidebar  w-2/5 h-full bg-gray-800 top-0 -left-1/2 bottom-0 fixed transition-all duration-1000 z-30">
+    <div class="flex justify-end p-2">
+      <i class=" navbar-close fa solid fa-xmark text-white p-4 cursor-pointer"></i>
+    </div>
+    <div class="navbar-Links text-white text-[16px]">
+      <p class="navbar-link p-4 ">
+        <a href="/index.html">Home</a>
+      </p>
+      <p class="navbar-link p-4 ">
+        <a href="#new-arrivals">New Arrival</a>
+      </p>
+      <p class="navbar-link p-4 ">
+        <a href="#most-wanted">Most Wanted</a>
+      </p>
+      <p class="navbar-link p-4 ">
+        <a href="/collections.html">Collections</a>
+      </p>
+      <p class="navbar-link p-4 ">
+        <a href="/contact.html">Contact Us</a>
+      </p>
+    </div>
+  </div>
+
+  <!--body-->
+  <div class="m-4 mt-0 flex">
+
+    <!--left section-->
+    <div class="w-[25%] pt-4 ">
+      <div class="mb-5">
+        <h1 class="font-bold text-[2.5vw] mb-2">Ocassion</h1>
+        <div class="text-[2vw]">
+          <input type="checkbox" value="Summer">
+          <label>Summer</label>
+          <br>
+          <input type="checkbox" value="Party">
+          <label>Party</label>
+          <br>
+          <input type="checkbox" value="Beach">
+          <label>Beach</label>
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <h1 class="font-bold text-[2.5vw] mb-2 ">Colors</h1>
+        <div class="text-[2vw]">
+          <input type="checkbox" value="Red">
+          <label>Red</label>
+          <br>
+          <input type="checkbox" value="Blue">
+          <label>Blue</label>
+          <br>
+          <input type="checkbox" value="White">
+          <label>White</label>
+          <br>
+          <input type="checkbox" value="Green">
+          <label>Green</label>
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <h1 class="font-bold text-[2.5vw] mb-2">Arrivals</h1>
+        <div class="text-[2vw]">
+          <input type="checkbox" value="New">
+          <label>New</label>
+          <br>
+          <input type="checkbox" value="Old">
+          <label>Old</label>
+        </div>
+      </div>
+    </div>
+
+    <!--right section-->
+    <div class="border-black border-l-4 w-full p-4 pt-2">
+      <div class=" relative pl-4">
+        <input type="text" placeholder="search" class="border border-black p-1.5 w-full rounded-lg">
+        <i class="fa-solid fa-search fa-md absolute right-4 top-1/2 -translate-y-1/2 cursor-pointer"></i>
+      </div>
+      <div class="pl-4 pt-5 grid grid-cols-3 gap-6 mb-4">
+        <div class="product" data-tags="Summer,Blue,New">
+          <img src="images/collections/collection1.jpg">
+          <p class="font-bold text-[2vw]">Floral Summer Shirt</p>
+          <p class="text-[1.5vw]">₹220</p>
+        </div>
+
+        <div class="product" data-tags="Summer,Green,New">
+          <img src="images/collections/collection2.jpg">
+          <p class="font-bold text-[2vw]">Summer green</p>
+          <p class="text-[1.5vw]">₹320</p>
+        </div>
+
+        <div class="product" data-tags="Party,White,New">
+          <img src="images/collections/collection3.jpg">
+          <p class="font-bold text-[2vw]">Party Floral Shirt</p>
+          <p class="text-[1.5vw]">₹280</p>
+        </div>
+
+
+        <div class="product" data-tags="Beach,White,New">
+          <img src="images/collections/collection4.jpg">
+          <p class="font-bold text-[2vw]">Ethinic Shirt</p>
+          <p class="text-[1.5vw]">₹260</p>
+        </div>
+
+        <div class="product" data-tags="Beach,Blue,Old">
+          <img src="images/collections/collection5.jpg">
+          <p class="font-bold text-[2vw]">Beach shirt</p>
+          <p class="text-[1.5vw]">₹190</p>
+        </div>
+
+        <div class="product" data-tags="Party,Red,New">
+          <img src="images/collections/collection6.jpg">
+          <p class="font-bold text-[2vw]">Party Layer shirt</p>
+          <p class="text-[1.5vw]">₹280</p>
+        </div>
+
+        <div class="product" data-tags="Party,White,New">
+          <img src="images/arrivals/n4.jpg">
+          <p class="font-bold text-[2vw]">Party wear</p>
+          <p class="text-[1.5vw]">₹299</p>
+        </div>
+
+        <div class="product" data-tags="Summer,Old">
+          <img src="images/arrivals/n7.jpg">
+          <p class="font-bold text-[2vw]">Summer suit</p>
+          <p class="text-[1.5vw]">₹390</p>
+        </div>
+
+        <div class="product" data-tags="Beach,Old">
+          <img src="images/arrivals/n8.jpg">
+          <p class="font-bold text-[2vw]">Beach & Party</p>
+          <p class="text-[1.5vw]">₹340</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--news letter-->
+
+  <div class=" mt-8 ">
+    <div class="text-center pl-[5vw] pr-[5vw]">
+      <p class="text-[3vw] font-bold">Join our News letter</p>
+      <p class="text-[2vw] font-medium">Signup for our email newspaper to get exclusive discounts,updates and more</p>
+      <input type="email" placeholder="Email" class="w-full  border-black p-2 mt-2 border-2">
+      <button class="p-2 pr-3 pl-3 mt-2 bg-black text-white font-medium text-[1.5vw] rounded-md">
+        Subscribe
+        <i class="fa-solid fa-arrow-right pt-1"></i>
+      </button>
+    </div>
+  </div>
+
+  <!--footer-->
+
+  <div class="mt-8">
+    <div class="p-8 bg-black text-white">
+      <p class="text-[4vw]">Nostra</p>
+      <p class="text-[2vw]">We provide the best quality products with guaranteed customer satisfaction . Explore our
+        store for exclusive deals and offers every day.</p>
+      <div class="flex space-x-8 mt-2 mb-2">
+        <i class="fa-brands fa-instagram " style="color: #e8ebed;"></i>
+        <i class="fa-brands fa-twitter " style="color: #e8ebed;"></i>
+        <i class="fa-brands fa-facebook " style="color: #e8ebed;"></i>
+      </div>
+      <p>@ 2025 Nostra.com</p>
+    </div>
+  </div>
+
+
+  <script type="module" src="scripts/collections.js"></script>
+</body>
+
+</html>
